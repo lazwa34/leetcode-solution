@@ -14,10 +14,10 @@ package leetcode.editor.cn;
 /**
  * @author wangzhiheng
  */
-public class $!velocityTool.camelCaseName(${question.titleSlug}){
+public class $!velocityTool.camelCaseName(${question.titleSlug}) {
     ${question.code}
     public static void main(String[] args) {
-         Solution solution = new $!velocityTool.camelCaseName(${question.titleSlug})().new Solution();
+        Solution solution = new $!velocityTool.camelCaseName(${question.titleSlug})().new Solution();
     }
 }
 ```
