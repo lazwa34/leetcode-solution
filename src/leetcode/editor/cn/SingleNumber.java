@@ -53,7 +53,7 @@ import java.util.Arrays;
  */
 public class SingleNumber{
     public static void main(String[] args) {
-         Solution solution = new SingleNumber().new Solution();
+        Solution solution = new SingleNumber().new Solution();
     }
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

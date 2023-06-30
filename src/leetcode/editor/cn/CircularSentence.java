@@ -73,7 +73,7 @@ package leetcode.editor.cn;
  */
 public class CircularSentence {
     //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+    class Solution {
         public boolean isCircularSentence(String sentence) {
             boolean res = true;
             if (sentence.charAt(0) != sentence.charAt(sentence.length() - 1)) {

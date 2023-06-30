@@ -52,7 +52,7 @@ package leetcode.editor.cn;
  */
 public class ValidPalindrome{
     public static void main(String[] args) {
-         Solution solution = new ValidPalindrome().new Solution();
+        Solution solution = new ValidPalindrome().new Solution();
     }
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {

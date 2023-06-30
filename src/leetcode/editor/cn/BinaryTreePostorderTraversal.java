@@ -99,6 +99,6 @@ public class BinaryTreePostorderTraversal {
     //leetcode submit region end(Prohibit modification and deletion)
 
     public static void main(String[] args) {
-         Solution solution = new BinaryTreePostorderTraversal().new Solution();
+        Solution solution = new BinaryTreePostorderTraversal().new Solution();
     }
 }

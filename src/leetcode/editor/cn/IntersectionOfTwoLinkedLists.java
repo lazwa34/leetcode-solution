@@ -142,6 +142,6 @@ public class IntersectionOfTwoLinkedLists {
     //leetcode submit region end(Prohibit modification and deletion)
 
     public static void main(String[] args) {
-         Solution solution = new IntersectionOfTwoLinkedLists().new Solution();
+        Solution solution = new IntersectionOfTwoLinkedLists().new Solution();
     }
 }
