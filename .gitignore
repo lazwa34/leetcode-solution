@@ -33,3 +33,4 @@ bin/
 ### leetcode-editor ###
 /src/**/doc/note/
 /src/**/doc/solution/
+/src/**/doc/submission/
