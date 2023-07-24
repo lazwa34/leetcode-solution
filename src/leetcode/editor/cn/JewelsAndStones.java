@@ -41,7 +41,7 @@ package leetcode.editor.cn;
  */
 public class JewelsAndStones {
     //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+    class Solution {
         public int numJewelsInStones(String jewels, String stones) {
             int ans = 0;
             for (int i = 0; i < stones.length(); i++) {
