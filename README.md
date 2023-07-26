@@ -13,6 +13,7 @@ package leetcode.editor.cn;
 
 /**
  * @author wangzhiheng
+ * @date $!velocityTool.date()
  */
 public class $!velocityTool.camelCaseName(${question.titleSlug}) {
     ${question.code}
