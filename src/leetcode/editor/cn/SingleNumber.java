@@ -52,29 +52,23 @@ import java.util.Arrays;
  * @author wangzhiheng
  */
 public class SingleNumber{
-    public static void main(String[] args) {
-        Solution solution = new SingleNumber().new Solution();
-    }
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int singleNumber(int[] nums) {
-            if (nums.length == 1) {
-                return nums[0];
-            }
-            Arrays.sort(nums);
             int ans = nums[0];
             for (int i = 1; i < nums.length; i++) {
-                if (nums[i] == nums[i - 1]) {
-                    i++;
-                    ans = nums[i];
-                } else {
-                    ans = nums[i - 1];
-                    break;
-                }
+                ans ^= nums[i];
             }
             return ans;
         }
     }
     //leetcode submit region end(Prohibit modification and deletion)
+
+    public static void main(String[] args) {
+        Solution solution = new SingleNumber().new Solution();
+        System.out.println(solution.singleNumber(
+                new int[]{4, 1, 2, 1, 2}
+        ));
+    }
 
 }
