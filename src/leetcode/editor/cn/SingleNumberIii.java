@@ -50,23 +50,23 @@ import java.util.Map;
  */
 public class SingleNumberIii {
     //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int[] singleNumber(int[] nums) {
-        Map<Integer, Integer> map = new HashMap<>();
-        for (int num : nums) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
-        }
-        int[] ans =  new int[2];
-        int idx = 0;
-        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            if (entry.getValue() == 1) {
-                ans[idx++] = entry.getKey();
+    class Solution {
+        public int[] singleNumber(int[] nums) {
+            Map<Integer, Integer> map = new HashMap<>();
+            for (int num : nums) {
+                map.put(num, map.getOrDefault(num, 0) + 1);
             }
+            int[] ans =  new int[2];
+            int idx = 0;
+            for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+                if (entry.getValue() == 1) {
+                    ans[idx++] = entry.getKey();
+                }
+            }
+            return ans;
         }
-        return ans;
     }
-}
-//leetcode submit region end(Prohibit modification and deletion)
+    //leetcode submit region end(Prohibit modification and deletion)
 
     public static void main(String[] args) {
         Solution solution = new SingleNumberIii().new Solution();
